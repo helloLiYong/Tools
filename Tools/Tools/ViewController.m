@@ -2,6 +2,7 @@
 #import "ViewController.h"
 #import "UIDevice-Hardware.h"
 #import "NSDate+extend.h"
+#import "UIImage+Extend.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +20,7 @@
     //根据时间得到具体信息
     NSDictionary *dateInfoDict = [NSDate getDateInfoFromDate:date];
     NSLog(@"%@",dateInfoDict);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

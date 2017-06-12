@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1753C6B1EEE81C7009E2CA1 /* UIView+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B1753C6A1EEE81C7009E2CA1 /* UIView+extend.m */; };
+		B1753C6E1EEE8217009E2CA1 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B1753C6D1EEE8217009E2CA1 /* UIImage+Extend.m */; };
+		B1753C711EEE82B8009E2CA1 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = B1753C701EEE82B8009E2CA1 /* NSDictionary+Property.m */; };
+		B18C08EF1EEE7AB500933469 /* UIBarButtonItem+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B18C08EE1EEE7AB500933469 /* UIBarButtonItem+extend.m */; };
 		B1BACB261EEE3B1200B61415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BACB251EEE3B1200B61415 /* main.m */; };
 		B1BACB291EEE3B1200B61415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BACB281EEE3B1200B61415 /* AppDelegate.m */; };
 		B1BACB2C1EEE3B1200B61415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BACB2B1EEE3B1200B61415 /* ViewController.m */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1753C691EEE81C7009E2CA1 /* UIView+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extend.h"; sourceTree = "<group>"; };
+		B1753C6A1EEE81C7009E2CA1 /* UIView+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extend.m"; sourceTree = "<group>"; };
+		B1753C6C1EEE8217009E2CA1 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		B1753C6D1EEE8217009E2CA1 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		B1753C6F1EEE82B8009E2CA1 /* NSDictionary+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		B1753C701EEE82B8009E2CA1 /* NSDictionary+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
+		B18C08ED1EEE7AB500933469 /* UIBarButtonItem+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+extend.h"; sourceTree = "<group>"; };
+		B18C08EE1EEE7AB500933469 /* UIBarButtonItem+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+extend.m"; sourceTree = "<group>"; };
 		B1BACB211EEE3B1200B61415 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BACB251EEE3B1200B61415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1BACB271EEE3B1200B61415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +174,14 @@
 			children = (
 				B1BACB5C1EEE468500B61415 /* NSDate+extend.h */,
 				B1BACB5D1EEE468500B61415 /* NSDate+extend.m */,
+				B18C08ED1EEE7AB500933469 /* UIBarButtonItem+extend.h */,
+				B18C08EE1EEE7AB500933469 /* UIBarButtonItem+extend.m */,
+				B1753C691EEE81C7009E2CA1 /* UIView+extend.h */,
+				B1753C6A1EEE81C7009E2CA1 /* UIView+extend.m */,
+				B1753C6C1EEE8217009E2CA1 /* UIImage+Extend.h */,
+				B1753C6D1EEE8217009E2CA1 /* UIImage+Extend.m */,
+				B1753C6F1EEE82B8009E2CA1 /* NSDictionary+Property.h */,
+				B1753C701EEE82B8009E2CA1 /* NSDictionary+Property.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -302,11 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18C08EF1EEE7AB500933469 /* UIBarButtonItem+extend.m in Sources */,
+				B1753C711EEE82B8009E2CA1 /* NSDictionary+Property.m in Sources */,
+				B1753C6B1EEE81C7009E2CA1 /* UIView+extend.m in Sources */,
 				B1BACB5E1EEE468500B61415 /* NSDate+extend.m in Sources */,
 				B1BACB2C1EEE3B1200B61415 /* ViewController.m in Sources */,
 				B1BACB291EEE3B1200B61415 /* AppDelegate.m in Sources */,
 				B1BACB261EEE3B1200B61415 /* main.m in Sources */,
 				B1BACB5A1EEE3E7500B61415 /* UIDevice-Hardware.m in Sources */,
+				B1753C6E1EEE8217009E2CA1 /* UIImage+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +568,7 @@
 				B1BACB501EEE3B1200B61415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1BACB511EEE3B1200B61415 /* Build configuration list for PBXNativeTarget "ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +577,7 @@
 				B1BACB531EEE3B1200B61415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1BACB541EEE3B1200B61415 /* Build configuration list for PBXNativeTarget "ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +586,7 @@
 				B1BACB561EEE3B1200B61415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

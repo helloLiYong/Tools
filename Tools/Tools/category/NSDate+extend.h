@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDate (extend)
+
+/**
+ 根据date得到具体的信息，
+
+ @param date date
+ @return 返回字典
+ */
 +(NSDictionary *)getDateInfoFromDate:(NSDate *)date;
 @end
